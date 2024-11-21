@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simeon.ayling\\source\\repos\\ROT13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C74733D-375A-4683-81EE-2E1DE88C1309}|ROT13\\ROT13.csproj|c:\\users\\simeon.ayling\\source\\repos\\rot13\\rot13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C74733D-375A-4683-81EE-2E1DE88C1309}|ROT13\\ROT13.csproj|solutionrelative:rot13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\simeon.ayling\\source\\repos\\ROT13\\ConsoleApp2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simeon.ayling\\source\\repos\\ROT13\\ROT13\\Program.cs",
+              "RelativeDocumentMoniker": "ROT13\\Program.cs",
+              "ToolTip": "C:\\Users\\simeon.ayling\\source\\repos\\ROT13\\ROT13\\Program.cs",
+              "RelativeToolTip": "ROT13\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T10:45:49.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simeon.ayling\\source\\repos\\ROT13\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\simeon.ayling\\source\\repos\\ROT13\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T10:42:22.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

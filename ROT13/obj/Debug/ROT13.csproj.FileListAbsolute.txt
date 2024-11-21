@@ -1,0 +1,7 @@
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\bin\Debug\ROT13.exe.config
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\bin\Debug\ROT13.exe
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\bin\Debug\ROT13.pdb
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\obj\Debug\ROT13.csproj.AssemblyReference.cache
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\obj\Debug\ROT13.csproj.CoreCompileInputs.cache
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\obj\Debug\ROT13.exe
+C:\Users\simeon.ayling\source\repos\ROT13\ROT13\obj\Debug\ROT13.pdb
