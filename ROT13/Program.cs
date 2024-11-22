@@ -11,7 +11,7 @@ namespace ConsoleApp2
     internal class Program
     {
         //ConcurrentDictionary for thread safety?
-        static Dictionary<string,string> pastSolutions = new Dictionary<string, string>();
+        static Dictionary<string, string> pastSolutions = new Dictionary<string, string>();
 
         static void Main(string[] args)
         {
@@ -21,8 +21,11 @@ namespace ConsoleApp2
 
             result = ROT13("simeon");
             result = ROT13("fvzrba");
-            result = ROT13("simeon ayling");
-            result = ROT13("test");
+
+            result = "*" + ROT13("simeon ayling") + "*";
+            result = "*" + ROT13(" simeon ayling") + "*";
+            result = "*" + ROT13("simeon ayling ") + "*";
+            result = "*" + ROT13(" simeon ayling ") + "*";
         }
 
 
@@ -108,8 +111,24 @@ namespace ConsoleApp2
             return solution;
         }
 
-
         static string ROT13(string passed)
+        {
+            var wordsPassed = passed.Split(' ');
+
+            var solution = "";
+            foreach (var word in wordsPassed)
+            {
+                solution += ' ' + ROT13_word(word);
+            }
+
+            //append any opening/closing spaces
+            if (passed[0] != ' ')
+                solution = solution.Substring(1);
+
+            return solution;
+        }
+
+        static private string ROT13_word(string passed)
         {
             if (String.IsNullOrEmpty(passed))
             {
@@ -119,28 +138,28 @@ namespace ConsoleApp2
             // Have we ciphered the string previously?
             if (pastSolutions.ContainsKey(passed))
             {
-                return (string)pastSolutions[passed];
+                return pastSolutions[passed];
             }
 
             // Have we ciphered a portion of the string previously?
-            string solution = "";
+            var solution = "";
             var test = passed.Substring(0, passed.Length - 1);
             while (test.Length > 0)
-            { 
+            {
                 if (pastSolutions.ContainsKey(test))
                 {
                     solution = (string)pastSolutions[test];
                     break;
                 }
                 test = test.Substring(0, test.Length - 1);
-            }           
+            }
 
             // Main cipher code
             for (int i = solution.Length; i < passed.Length; i++)
             {
                 var testChar = passed[i];
                 var testAscii = (int)testChar;
-                
+
                 switch (testAscii)
                 {
                     case int n when (n >= 'A' && n <= 'Z'):
